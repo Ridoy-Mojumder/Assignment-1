@@ -1,0 +1,290 @@
+/* common shared style */
+body{
+    font-family: Inter;
+    font-style: normal;
+}
+.container{
+    padding: 50px 100px;
+
+}
+
+.header-title{
+    text-align: center;
+}
+
+
+.header-image {
+    position: relative;
+    background-color: #FFF8F3;
+    background-image: url("../resources-20240107T160352Z-001/resources/Banner Image.png");
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+    border-radius: 5px;
+    color: #FFF;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 95px;
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+}
+.header-image::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    z-index: -1;
+}
+
+
+.header-image > h1 {
+    margin: 50px;
+    padding: 282px;
+    width: 682px;
+    margin-top: 120px;
+}
+
+.header-image > h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.header-title > h1{
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700; 
+    line-height: normal;
+    padding: 0px 100px;
+}
+.header-title > h4{
+    color: #F00; 
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 0px 100px;
+}
+.header-title > h3{
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
+    padding: 0px 100px;
+}
+
+
+.header-title > img{
+    width: 802.9px;
+    height: 500px;
+    flex-shrink: 0;
+    padding: 0px 100px;
+}
+
+.header-second-image{
+    background-color: #FFF8F3;
+    display: flex;
+    gap: 200px;
+    background-image: url("../resources-20240107T160352Z-001/resources/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 95px;
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    margin-top: 120px;
+    
+
+
+}
+
+.welcome-text > h1{
+    width: 642px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px; /* 137.5% */
+    letter-spacing: 7.04px;
+    padding-left: 100px;
+}
+
+.welcome-text > p{
+    width: 697px;
+    color: rgba(255, 255, 255, 0.80); 
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 100px;
+    
+}
+.welcome-text > h5{
+    width: 697px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-left: 100px;
+    
+}
+.welcome-image
+
+.welcome-image {
+    width: 141.641px;
+    height: 141.641px;
+    transform: rotate(-45deg);
+    flex-shrink: 0;
+    
+}
+
+/* start main styles */
+
+.main-title{
+    width: 1320px;
+    height: 482px;
+    flex-shrink: 0;
+    text-align: center;
+    fill: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    
+
+}
+.gradient-shape > h3{
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    margin: auto;
+    padding: auto;
+}
+.gradient-shape > h3 >span{
+    color: #F00;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px; /* 175% */
+    text-transform: capitalize;
+}
+
+
+
+.gradient-shape {
+    width: 1320px;
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10), rgba(255, 0, 0, 0) 100%);
+    position: relative;
+    margin-top: 120px;
+    z-index: 1;
+}
+
+.gradient-shape::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('path-to-your-image.jpg') center center/cover; /* You can use an image or adjust as needed */
+    z-index: -1;
+}
+
+
+/* coming soon part styles */
+
+.coming-soon{
+    width: 1320px;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+.coming-soon-firstpart{
+
+}
+.coming-soon-firstpart h3{
+    color: #F00;
+    font-size: 24px;
+    font-family: Merriweather;
+    font-weight: 500;
+    line-height: normal;
+
+}
+.coming-soon-firstpart h1{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+
+}
+.coming-soon-firstpart p{
+    width: 393px;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; 
+}
+
+.coming-soon-secondpart{
+    width: 463px;
+    height: 463px;
+    flex-shrink: 0;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    align-items: center;
+    text-align: center;
+}
+
+.coming-soon-secondpart img{
+    width: 364.844px;
+    height: 364.844px;
+    flex-shrink: 0;
+    border-radius: 364.844px;
+    padding: 49px;
+    background: url(<path-to-image>), lightgray -91.279px 0px / 150.038% 100% no-repeat;
+}
+.coming-soon-thirdpart h2{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.coming-soon-thirdpart p {
+    width: 276px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+}
+
+.coming-soon-thirdpart img {
+    width: 140px;
+    height: 140px;
+    flex-shrink: 0;
+}
+
+
+    
+
+
+
+
